@@ -10,8 +10,8 @@
     "url": "http://azat.io/"
   },
   "engines": {
-    "atom": "*",
-    "node": "*"
+    "atom": ">=1.0.0 <2.0.0",
+    "node": ">=1.0.0"
   },
   "keywords": [
     "postcss",
@@ -19,5 +19,10 @@
     "language",
     "grammar",
     "editor"
-  ]
+  ],
+  "devDependencies": {
+    "atom-grammar-test": "0.6.3",
+    "eslint": "3.11.0",
+    "eslint-config-postcss": "2.0.2"
+  }
 }
